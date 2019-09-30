@@ -45,7 +45,7 @@ namespace Chess
             if (moveColor == Color.black)
                 next.moveNumber++;
             next.moveColor = moveColor.FlipColor();
-            
+            return next;
         }
     }
 }
