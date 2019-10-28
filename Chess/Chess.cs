@@ -19,6 +19,7 @@ namespace Chess
         Chess(Board board)
         {
             this.board = board;
+            this.fen = board.fen;
         }
 
         public Chess Move(string move) // Pe2e4  Pe7e8Q
