@@ -17,6 +17,7 @@ namespace Chess
         {
             this.fen = fen;
             figures = new Figure[8, 8];
+            Init();
         }
 
         void Init()
